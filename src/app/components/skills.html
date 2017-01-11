@@ -1,0 +1,28 @@
+<h2 id="tools" class="sectionHead">Skills</h2>
+
+<ul id="skills">
+
+  <li id="skill2" class="s90"><span>AngularJs</span></li>
+  <li id="skill2" class="s80"><span>PHP</span></li>
+  <li id="skill3" class="s90"><span>HTML + CSS</span></li>
+  <li id="skill3" class="s80"><span>JavaScript</span></li>
+  <li id="skill1" class="s80"><span>WordPress Development</span></li>
+  <li id="skill3" class="s90"><span>Bootstrap</span></li>
+  <li id="skill3" class="s90"><span>MySQL</span></li>
+  <li id="skill3" class="s90"><span>PostgreSQL</span></li>
+  <li id="skill4" class="s80"><span>jQuery</span></li>
+  <li id="skill3" class="s70"><span>Java</span></li>
+  <li id="skill3" class="s70"><span>C</span></li>
+  <li id="skill3" class="s70"><span>C++</span></li>
+</ul><!--end skills-->
+
+<script>
+  $('ul#skills').addClass("ready");
+  $('ul#skills li').each(function () {
+    var i = $(this).index();
+    $(this).delay(100 * i).animate({right: "0%"}, 1000, function () {
+      $(this).children('span').fadeIn(600);
+    });
+  });
+</script>
+<div class="clear"></div>
