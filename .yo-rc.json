@@ -5,24 +5,12 @@
       "angularVersion": "~1.5.3",
       "angularModules": [
         {
-          "key": "animate",
-          "module": "ngAnimate"
-        },
-        {
-          "key": "cookies",
-          "module": "ngCookies"
-        },
-        {
           "key": "touch",
           "module": "ngTouch"
         },
         {
           "key": "sanitize",
           "module": "ngSanitize"
-        },
-        {
-          "key": "messages",
-          "module": "ngMessages"
         },
         {
           "key": "aria",
@@ -39,14 +27,6 @@
       "router": {
         "key": "ui-router",
         "module": "ui.router"
-      },
-      "ui": {
-        "key": "bootstrap",
-        "module": null
-      },
-      "bootstrapComponents": {
-        "key": "ui-bootstrap",
-        "module": "ui.bootstrap"
       },
       "cssPreprocessor": {
         "key": "node-sass",
