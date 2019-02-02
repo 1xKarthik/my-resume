@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="resume">
+<head>
+    <meta charset="utf-8">
+    <title>Karthik CV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width"/>
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="sticker"></div>
+
+<div id="wrapper">
+    <div ui-view></div>
+</div>
+
+<div id="copyright">&copy; {{year}} - Designed and developed by Karthik</div>
+
+<script src="scripts/vendor.js"></script>
+
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
